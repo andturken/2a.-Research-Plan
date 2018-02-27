@@ -1,0 +1,144 @@
+<div><b>STATISTICAL ANALYSIS AND THE INTERPRETATION OF FINDINGS</b></div>
+
+
+<div>
+<b>Aim 1. Structural disconnection and stroke outcome. 1)</b> First,
+<b>Network-based Statistics (NBS)</b> [80, 81] will be applied to
+normalized structural connectivity matrices from stroke patients
+identify which inter-regional connections are correlated with functional
+outcome (NIHSS, FIM), cognitive performance (NIH-TB fluid cognition
+score). This analysis will be analogous to voxel-wise fMRI, VBM or VLSM
+analyses of brain-behavior correlations, except that network connection
+weights, rather than voxel intensity, will be used as the dependent
+variable. Similar to the SPM framework for voxel-wise VBM analysis, NBS
+addresses the correction for multiple comparisons problem in connectome
+analyses with large numbers of inter-regional network connections
+tested. Demographic variables, education, time post-stroke, age at
+stroke onset, rehabilitation history (duration in months) and pre-morbid
+ability will be used as co-variates. Statistical significance of the
+regression coefficients for individual connections will be assessed with
+one-sided <i>t</i> -tests (p &lt; 0.05, correction for multiple
+comparisons with non-parametric permutation testing). The <i>t</i> -test
+for negative correlations between connection weight and neurobehavioral
+outcome will identify the inter-regional disconnections that are
+associated with poorer outcomes. We predict that more extensive loss of
+inter-regional structural connectivity will indicate more severe
+impairments in global outcome measures, as a severely disconnected brain
+has much less resources available for coordinating activity across
+distributed cerebral networks. We also predict that connections between
+lateral prefrontal cortex, inferior parietal cortex and postero-lateral
+temporal cortex will best correlate with overall functional and
+cognitive outcome, as fronto-posterior networks support the high level
+cognitive abilities required for coping with challenging situations in
+the daily environment [85].</div>
+
+
+<div>
+<b>2) Partial Least Squares (PLS) regression</b> will be used in a
+second set of analyses [44, 45]. PLS is commonly employed for
+predictive modeling when there are more variables (in this case, brain
+measures) than observations (patients). While the NBS analysis outlined
+above is designed to reveal the specific inter-regional disconnections
+that are associated with poorer outcomes, the PLS analysis will be
+designed to assess how well neurobehavioral outcome measures can be
+predicted from weighted linear combinations of regional tissue integrity
+and inter-regional connectivity measures. PLS has been employed in
+previous stroke studies to predict behavioral outcomes from lesion
+patterns with behavioral outcomes [43, 46-48]. PLS will first be
+applied using as predictors regional gray matter measures from each
+atlas-defined ROI parcel. As before, demographic variables, education,
+time post-stroke, age at stroke onset and rehabilitation history
+(duration in months) will be added as co-variates. The output of PLS
+analysis will be a set of weights for predictor variables that best
+account for variability in the neurobehavioral outcome measure, the
+percentage of variance explained by the resulting model, and a measure
+of the predictive accuracy of the model based on ten-fold
+cross-validation. The PLS analysis will be repeated by including the
+inter-regional connection strengths from the structural connectome
+analysis in addition to regional gray matter measures. Three models will
+be compared with the Akaike Information Criterion (AIC), which adjusts
+for differences in model complexity: regional gray matter measurements
+alone, structural connectivity measures alone, and regional and
+connectivity measures combined in the same model. Improvement in
+explained variance and predictive accuracy with the addition of
+structural connectivity measures in the PLS model will indicate that
+structural disconnection accounts for unique variance in stroke
+functional and cognitive outcome that is not captured by lesion location
+and extent alone. In our Preliminary Studies section, we have described
+how we used the PLS technique to account for the variability in one
+high-level cognitive ability.</div>
+
+
+<div>
+<b>Aim 2. Functional connectivity alterations and stroke outcome.
+1)</b> Graph theoretic measures of network information processing capacity
+will be computed for the whole brain, as well as for two major
+resting-state networks, the fronto-parietal executive network (FPEN),
+the default mode network (DMN), defined according to the Yeo-2011
+functional connectivity atlas. Lesion masks will be used to exclude
+abnormal tissue from the analysis of BOLD signal correlations.
+Characteristic path length, communicability and modularity measures will
+be computed from the inter-regional functional connectivity matrices.
+Graph theoretic measures of functional network organization will be
+correlated with functional (NIHSS, FIM) and cognitive (NIH-TB fluid
+cognition) outcome measures. Linear regression will be employed,
+including as co-variates demographic information, education, time
+post-stroke, age at stroke onset, rehabilitation history (duration in
+months), pre-morbid ability (Barona Index) and lesion volume. We predict
+that better functional organization of the whole-brain and the
+fronto-parietal executive network (implicated in domain general
+high-level cognitive abilities) will be associated with higher scores on
+functional and cognitive stroke outcome measures (NIHSS, FIM, NIH-TB).
+<b>2)</b> As in Aim 1, we will employ PLS regression in a second set
+of analyses. Three models will be compared. the first including only
+regional (atlas ROI-wise) tissue loss, capturing lesion location and
+extent; the second model including both regional tissue loss and
+structural disconnection; and the third including regional tissue loss,
+structural disconnection and graph theoretic measures of function
+network organization. While structural connectivity determines the
+potential for neurocognitive recovery through network reorganization,
+functional connectivity measures show how well this potential has been
+realized. Thus, the two measures of cerebral connectivity, structural
+and functional, provide related by complementary information. Therefore,
+we predict that model comparison based on the AIC criterion will
+indicate that how well functional brain networks are organized captures
+for stroke outcome variability that is not accounted for by lesion
+location or structural disconnection.</div>
+
+
+<div>
+<b>Aim 3. Assess how well network disconnection can be predicted
+from clinically available anatomical brain scans.</b> Lesion masks derived
+from T1- and T2-weighted anatomical scans will be used for conducting a
+“virtual lesion analysis” with the brain connectivity measures from
+the demographically-matched control group. The lesion likelihood maps
+produced by the Automated Lesion Identification software package [50,
+51] will be binarized at 50% lesion probability. Lesion masks from
+individual patients will be intersected with tractography data from all
+100 controls, and structural connectivity measures will be re-computed
+for each control dataset after removing the intersecting fiber
+streamlines. Percent reduction in structural connectivity after
+“virtual disconnection”, averaged over all control datasets, will
+provide an estimate of the likelihood of inter-regional disconnection in
+each individual patient based on binary lesion location alone, taking
+into account normal inter-individual variability in the aging brain. For
+each patient, Dice similarity coefficient (DSC) will be computed between
+the “virtual lesion” disconnection estimate and the tractography-based
+disconnection computed in Aim 1. Similarly, functional connectivity
+matrices and graph theoretic measures of functional network organization
+will be recomputed for controls after removing gray matter ROIs that
+intersect with the binary lesion mask for each patient. The
+brain-behavior relationship analyses outlined for Aims 1 and 2 will be
+repeated with the structural and functional virtual disconnection
+estimates to assess how well functional and cognitive stroke outcome
+measures can be predicted from brain connectivity changes inferred from
+T1w and T2w anatomical scans alone. As a growing number of stroke and
+other brain injury studies are combining patient lesion reconstructions
+with brain white matter and functional connectivity maps from healthy
+subjects to predict neurobehavioral outcomes [7, 18, 46, 48-50], the
+validation of this approach with actual structural and functional
+connectivity measurements from the same patients will be a novel
+contribution to the brain injury research. The MATLAB-based software and
+the normative connectivity database we will develop for Aim 3 will also
+be made available to other VA clinicians and researchers through the
+VINCI system.</div>
