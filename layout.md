@@ -6,6 +6,7 @@ textbfSIGNIFICANCE_A.html
 textbfRELEVANCE_TO_T.html
 textbfPRELIMINARY.html
 figures/image2
+figures/Johann_Sebastian_Bach_1746
 figures/image6
 textbfConnectional_a.html
 textbfFigure_2_Voxel.html
