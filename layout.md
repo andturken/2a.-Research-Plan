@@ -23,6 +23,7 @@ figures/image13
 figures/image14
 textbfVirtual_discon.html
 textbfFigure_5_Virtu.html
+figures/The_Great_Wave_off_Kanagawa
 figures/image15
 textbfProcessing_spe.html
 textbfFigure_6_VBM_a.html
